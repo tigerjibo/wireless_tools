@@ -5,7 +5,7 @@
 ## Installation directory. By default, go in /usr/local.
 ## Distributions should probably use /, but they probably know better...
 PREFIX=/opt/wifi
-
+##modify by user
 ## Compiler to use (modify this for cross compile).
 CC = arm-none-linux-gnueabi-gcc
 ## Other tools you need to modify for cross compile (static lib only).
