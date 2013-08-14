@@ -7,10 +7,10 @@
 PREFIX=/opt/wifi
 ##modify by user
 ## Compiler to use (modify this for cross compile).
-CC = arm-none-linux-gnueabi-gcc
+CC = $(CROSS_COMPIL)gcc
 ## Other tools you need to modify for cross compile (static lib only).
-AR = arm-none-linux-gnueabi-ar
-RANLIB = arm-none-linux-gnueabi-ranlib
+AR = $(CROSS_COMPIL)ar
+RANLIB = $(CROSS_COMPIL)ranlib
 
 ## Uncomment this to build tools using static version of the library.
 ## Mostly useful for embedded platforms without ldd, or to create
